@@ -1,0 +1,156 @@
+{
+  "estudiantes": [
+    {
+      "tipoUsuario": "Alumno",
+      "usuario": "Jo24",
+      "contrasena": "j",
+      "carnet": "KEY_000005",
+      "idEstudiante": "000005",
+      "correo": "joceline.ayala@keyinstitute.edu.sv",
+      "carrera": "Ingeniería en Ciencias de la Computacion",
+      "notificaciones": false,
+      "actividadesInscritas": [],
+      "actividadesCompletadas": [
+        "baile_01_2025"
+      ]
+    },
+    {
+      "tipoUsuario": "Alumno",
+      "usuario": "Sofía",
+      "contrasena": "Key123",
+      "carnet": "29475",
+      "idEstudiante": "4536",
+      "correo": "sofia.hernandez@keyinstitute.edu.sv",
+      "carrera": "Ingeniería en Ciencias de la Computacion",
+      "notificaciones": false,
+      "actividadesInscritas": [],
+      "actividadesCompletadas": []
+    }
+  ],
+  "maestros": [
+    {
+      "tipoUsuario": "Docente",
+      "usuario": "a",
+      "contrasena": "a",
+      "idMaestro": "00007",
+      "correo": "joceline.ayala@keyinstitute.edu.sv",
+      "rol": "encargado"
+    },
+    {
+      "tipoUsuario": "Docente",
+      "usuario": "Alberto",
+      "contrasena": "Profe123",
+      "idMaestro": "00005",
+      "correo": "joceline.ayala@keyinstitute.edu.sv",
+      "rol": "encargado"
+    }
+  ],
+  "actividades": [
+    {
+      "nombreActividad": "Baile",
+      "idActividad": "baile_01_2025",
+      "categoria": "Opcional",
+      "personaEncargada": "Juan",
+      "detalles": "Clases de baile moderno",
+      "horario": [
+        {
+          "dia": "Martes",
+          "inicio": "14:00",
+          "fin": "16:00"
+        },
+        {
+          "dia": "Jueves",
+          "inicio": "14:00",
+          "fin": "16:00"
+        }
+      ],
+      "lugar": "Salón de Danza",
+      "cuposMaximos": 20,
+      "estado": "activa",
+      "inscritos": [
+        "j",
+        "j"
+      ]
+    },
+    {
+      "nombreActividad": "Yoga",
+      "idActividad": "yoga_02_2025",
+      "categoria": "Opcional",
+      "personaEncargada": "Alberto",
+      "detalles": "Clases de yoga para relajarse",
+      "horario": [
+        {
+          "dia": "Viernes",
+          "inicio": "03:00",
+          "fin": "04:00"
+        }
+      ],
+      "lugar": "Salón 101",
+      "cuposMaximos": 20,
+      "estado": "activa",
+      "inscritos": [
+        "Jo24"
+      ]
+    }
+  ],
+  "administrador": [
+    {
+      "tipoUsuario": "Administrador",
+      "usuario": "Rebe",
+      "contrasena": "Admin",
+      "idAdministrador": "9348",
+      "correo": "rebeca.castro@keyinstitute.edu.sv",
+      "cargoAdministrativo": "Ingeniería en Ciencias"
+    }
+  ],
+  "noticias": [
+    {
+      "titulo": "Clase cancelada por mantenimiento",
+      "descripcion": "Se cancela la sesión del día 2025-06-27 de Baile.",
+      "publicado": "Juan",
+      "remitente": "Juan",
+      "fecha": "2025-06-25 15:00:00",
+      "cancelarSesion": {
+        "idActividad": "baile_01_2025",
+        "fecha": "2025-06-27"
+      }
+    },
+    {
+      "titulo": "asfas",
+      "descripcion": "asfas",
+      "remitente": "Juan",
+      "publicado": "Juan",
+      "fecha": "2025-06-29 20:45:49"
+    },
+    {
+      "titulo": "cancelar clase martes",
+      "descripcion": "Se cancela la sesión del día 2025-07-01 de Baile.",
+      "remitente": "Juan",
+      "publicado": "Juan",
+      "fecha": "2025-06-29 21:14:00",
+      "cancelarSesion": {
+        "idActividad": "baile_01_2025",
+        "fecha": "2025-07-01"
+      }
+    },
+    {
+      "titulo": "cancelar clase",
+      "descripcion": "Se cancela la sesión del día 2025-07-01 de Baile.",
+      "remitente": "a",
+      "publicado": "a",
+      "fecha": "2025-06-30 00:49:21",
+      "cancelarSesion": {
+        "idActividad": "baile_01_2025",
+        "fecha": "2025-07-01"
+      }
+    },
+    {
+      "titulo": "asfafa",
+      "descripcion": "afafa",
+      "remitente": "a",
+      "publicado": "a",
+      "fecha": "2025-07-04 05:34:32"
+    }
+  ],
+  "actividadesFinalizadas": []
+}

@@ -1,0 +1,202 @@
+{
+  "historialAcciones": [
+    {
+      "usuario": "Rebe",
+      "rol": "Administrador",
+      "accion": "Creó un nuevo usuario",
+      "fechaHora": "2025-06-24 13:25:12"
+    },
+    {
+      "usuario": "Rebe",
+      "rol": "Administrador",
+      "accion": "Creó un nuevo usuario",
+      "fechaHora": "2025-07-02 04:51:34"
+    },
+    {
+      "usuario": "Rebe",
+      "rol": "Administrador",
+      "accion": "Eliminó un usuario",
+      "fechaHora": "2025-07-02 04:54:18"
+    },
+    {
+      "usuario": "Rebe",
+      "rol": "Administrador",
+      "accion": "Eliminó un usuario",
+      "fechaHora": "2025-07-02 04:54:56"
+    },
+    {
+      "usuario": "Rebe",
+      "rol": "Administrador",
+      "accion": "Creó un nuevo usuario",
+      "fechaHora": "2025-07-02 04:55:46"
+    },
+    {
+      "usuario": "Rebe",
+      "rol": "Administrador",
+      "accion": "Editó un usuario",
+      "fechaHora": "2025-07-02 04:56:57"
+    },
+    {
+      "usuario": "Rebe",
+      "rol": "Administrador",
+      "accion": "Editó un usuario",
+      "fechaHora": "2025-07-02 10:26:31"
+    },
+    {
+      "usuario": "Rebe",
+      "rol": "Administrador",
+      "accion": "Creó un nuevo usuario",
+      "fechaHora": "2025-07-02 10:36:12"
+    },
+    {
+      "usuario": "Rebe",
+      "rol": "Administrador",
+      "accion": "Editó un usuario",
+      "fechaHora": "2025-07-02 10:36:18"
+    },
+    {
+      "usuario": "Rebe",
+      "rol": "Administrador",
+      "accion": "Creó un nuevo usuario",
+      "fechaHora": "2025-07-02 10:37:15"
+    },
+    {
+      "usuario": "Rebe",
+      "rol": "Administrador",
+      "accion": "Creó un nuevo usuario",
+      "fechaHora": "2025-07-02 10:42:46"
+    },
+    {
+      "usuario": "Rebe",
+      "rol": "Administrador",
+      "accion": "Creó un nuevo usuario",
+      "fechaHora": "2025-07-02 10:44:52"
+    },
+    {
+      "usuario": "Rebe",
+      "rol": "Administrador",
+      "accion": "Eliminó un usuario",
+      "fechaHora": "2025-07-02 10:47:19"
+    },
+    {
+      "usuario": "Rebe",
+      "rol": "Administrador",
+      "accion": "Eliminó un usuario",
+      "fechaHora": "2025-07-02 10:47:45"
+    },
+    {
+      "usuario": "Rebe",
+      "rol": "Administrador",
+      "accion": "Eliminó un usuario",
+      "fechaHora": "2025-07-02 10:48:03"
+    },
+    {
+      "usuario": "Rebe",
+      "rol": "Administrador",
+      "accion": "Eliminó un usuario",
+      "fechaHora": "2025-07-02 10:49:54"
+    },
+    {
+      "usuario": "Rebe",
+      "rol": "Administrador",
+      "accion": "Editó un usuario",
+      "fechaHora": "2025-07-02 10:54:08"
+    },
+    {
+      "usuario": "Rebe",
+      "rol": "Administrador",
+      "accion": "Creó un nuevo usuario",
+      "fechaHora": "2025-07-02 10:54:14"
+    },
+    {
+      "usuario": "Rebe",
+      "rol": "Administrador",
+      "accion": "Creó un nuevo usuario",
+      "fechaHora": "2025-07-02 11:11:57"
+    },
+    {
+      "usuario": "Rebe",
+      "rol": "Administrador",
+      "accion": "Creó un nuevo usuario",
+      "fechaHora": "2025-07-02 11:17:42"
+    },
+    {
+      "usuario": "Rebe",
+      "rol": "Administrador",
+      "accion": "Creó un nuevo usuario",
+      "fechaHora": "2025-07-02 13:22:43"
+    },
+    {
+      "usuario": "Rebe",
+      "rol": "Administrador",
+      "accion": "Creó un nuevo usuario",
+      "fechaHora": "2025-07-02 13:50:47"
+    },
+    {
+      "usuario": "Rebe",
+      "rol": "Administrador",
+      "accion": "Eliminó un usuario",
+      "fechaHora": "2025-07-02 14:14:13"
+    },
+    {
+      "usuario": "Rebe",
+      "rol": "Administrador",
+      "accion": "Creó un nuevo usuario",
+      "fechaHora": "2025-07-02 14:14:32"
+    },
+    {
+      "usuario": "Rebe",
+      "rol": "Administrador",
+      "accion": "Eliminó un usuario",
+      "fechaHora": "2025-07-02 14:15:05"
+    },
+    {
+      "usuario": "Rebe",
+      "rol": "Administrador",
+      "accion": "Creó un nuevo usuario",
+      "fechaHora": "2025-07-02 14:15:36"
+    }
+  ],
+  "erroresReportados": [
+    {
+      "usuario": "Juan",
+      "titulo": "No me deja entrar a ninguna opción",
+      "descripcion": "",
+      "fecha": "2025-06-24 13:34:26"
+    },
+    {
+      "usuario": "Jo24",
+      "titulo": "No me da al botón",
+      "descripcion": "Le doy y no está funcionando help",
+      "fecha": "2025-06-28 21:40:08"
+    },
+    {
+      "usuario": "j",
+      "titulo": "jk",
+      "descripcion": "h",
+      "fecha": "2025-06-29 08:20:43"
+    },
+    {
+      "usuario": "a",
+      "titulo": "fasfsa",
+      "descripcion": "gdgd",
+      "fecha": "2025-06-30 05:15:48"
+    },
+    {
+      "usuario": "Jo24",
+      "titulo": "rgdh",
+      "descripcion": "fhd",
+      "fecha": "2025-07-04 02:43:06"
+    },
+    {
+      "usuario": "a",
+      "titulo": "asfasfas",
+      "descripcion": "asfasfsa",
+      "fecha": "2025-07-04 05:41:55"
+    }
+  ],
+  "configuracion": {
+    "toleranciaAsistencia": 15,
+    "porcentajeAdvertencia": 70
+  }
+}

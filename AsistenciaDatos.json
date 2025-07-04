@@ -1,0 +1,60 @@
+{
+  "registros": {
+    "baile_01_2025": {
+      "nombreActividad": "Baile",
+      "sesiones": {
+        "Martes 14:00-16:00": [
+          {
+            "usuario": "Jo24",
+            "fecha_hora": "2025-06-21 21:27:31"
+          },
+          {
+            "usuario": "Jo24",
+            "fecha_hora": "2025-06-24 14:59:49"
+          }
+        ]
+      },
+      "faltas": {
+        "Jo24": [
+          "2025-06-18",
+          "2025-06-20",
+          "2025-06-23"
+        ]
+      },
+      "canceladas": [
+        "2025-06-18",
+        "2025-06-20",
+        "2025-07-01",
+        "2025-07-01"
+      ],
+      "advertenciasEnviadas": {
+        "Jo24": true
+      }
+    },
+    "yoga_02_2025": {
+      "nombreActividad": "Yoga",
+      "sesiones": {
+        "Viernes 10:00-12:00": [
+          {
+            "usuario": "Jo24",
+            "fecha_hora": "2025-06-21 21:50:03"
+          }
+        ]
+      },
+      "faltas": {
+        "Jo24": [
+          "2025-06-18",
+          "2025-06-20",
+          "2025-06-23"
+        ]
+      },
+      "canceladas": [
+        "2025-06-18",
+        "2025-06-20"
+      ],
+      "advertenciasEnviadas": {
+        "Jo24": true
+      }
+    }
+  }
+}
