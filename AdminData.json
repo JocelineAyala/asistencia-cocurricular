@@ -155,6 +155,24 @@
       "rol": "Administrador",
       "accion": "Creó un nuevo usuario",
       "fechaHora": "2025-07-02 14:15:36"
+    },
+    {
+      "usuario": "Rebe",
+      "rol": "Administrador",
+      "accion": "Creó un nuevo usuario",
+      "fechaHora": "2025-07-04 12:31:50"
+    },
+    {
+      "usuario": "Rebe",
+      "rol": "Administrador",
+      "accion": "Creó un nuevo usuario",
+      "fechaHora": "2025-07-04 13:11:53"
+    },
+    {
+      "usuario": "Rebe",
+      "rol": "Administrador",
+      "accion": "Editó un usuario",
+      "fechaHora": "2025-07-04 13:12:30"
     }
   ],
   "erroresReportados": [
