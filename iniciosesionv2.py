@@ -10,7 +10,7 @@ import customtkinter as ctk
 from customtkinter import CTkImage
 
 remitente = "asistencia.cocurricular@gmail.com"
-contrasena = "einr soie bxtt flrs"
+contrasena = ""
 
 BD_USUARIOS = "BaseDatos.json"
 BD_ASISTENCIA = "AsistenciaDatos.json"
@@ -81,19 +81,9 @@ def guardarAsistencia(asistencia):
     with open(BD_ASISTENCIA, "w", encoding="utf-8") as archivo:
         json.dump(asistencia, archivo, indent=2, ensure_ascii=False)
 
-#crearUsuario(datos)
-
-#editarUsuario(datos)
-
-#eliminarUsuario(datos)
-
-#registrarAccionAdmin(adminData, usuario, rol, accion)
-
-#modificarPorcentajeAdvertencia(admin_data)
-
 def enviarCorreoOutlook(destinatario, asunto, cuerpo):
     remitente = "asistencia.cocurricular@gmail.com"
-    contrasena = "nwiu xriq katr alyz"
+    contrasena = "Inserte contraseña aquí"
 
     mensaje = EmailMessage()
     mensaje["From"] = remitente
@@ -254,17 +244,6 @@ def escanear_qr_opencv(usuario, datos, asistencia, ventana_padre):
                         "Monday": "Lunes", "Tuesday": "Martes", "Wednesday": "Miércoles",
                         "Thursday": "Jueves", "Friday": "Viernes", "Saturday": "Sábado", "Sunday": "Domingo"
                     }.get(hoy, "")
-
-                    """# FORZAR REGISTRO aunque el día no coincida (para pruebas)
-                    primer_horario = horario[0]  # toma el primer bloque del QR
-                    bloque = f'{primer_horario["dia"]} {primer_horario["inicio"]}-{primer_horario["fin"]}'
-                    registrar_asistencia(usuario, idActividad, nombreActividad, bloque, asistencia, ventana_padre)
-                    cam.release()
-                    cv2.destroyAllWindows()
-                    return {
-                        "usuario": usuario,
-                        "idActividad": idActividad
-                    }"""
 
                     horarioHoy = next((h for h in horario if h["dia"] == hoy_esp), None)
 
@@ -448,7 +427,7 @@ class AlumnoApp(ctk.CTkToplevel):
                     justify="left", anchor="w", text_color="#333333"
                 ).pack(pady=8, anchor="w", padx=50)
 
-        # ✅ Mostrar progreso real basado en actividadesCompletadas
+        # Mostrar progreso real basado en actividadesCompletadas
         completadas = estudiante.get("actividadesCompletadas", [])
         cantidad_completadas = len(completadas)
 
@@ -1264,11 +1243,11 @@ class DocenteFunciones:
         self.master = master
         self.datos = datos
         self.asistencia = asistencia
-        self._usuario = usuario
+        self.usuario = usuario
 
 
     def mostrar_perfil_docente(self):
-        docente = next((m for m in self.datos["maestros"] if m["usuario"] == self._usuario), None)
+        docente = next((m for m in self.datos["maestros"] if m["usuario"] == self.usuario), None)
 
         if not docente:
             self.master.popup("No se encontró el perfil del docente.")
@@ -1324,21 +1303,6 @@ class DocenteFunciones:
             fg_color="white", text_color="#003366", hover_color="#b3d9ff",
             corner_radius=15, width=280, height=40, font=("Arial", 13, "bold")
         ).pack(pady=8)
-
-        ctk.CTkButton(
-            frame, text="4. Finalizar actividad",
-            command=lambda: self.finalizarActividad(ventana_padre),
-            fg_color="white", text_color="#003366", hover_color="#b3d9ff",
-            corner_radius=15, width=280, height=40, font=("Arial", 13, "bold")
-        ).pack(pady=8)
-
-        ctk.CTkButton(
-            frame, text="5. Reactivar actividad",
-            command=lambda: self.reactivarActividad(ventana_padre),
-            fg_color="white", text_color="#003366", hover_color="#b3d9ff",
-            corner_radius=15, width=280, height=40, font=("Arial", 13, "bold")
-        ).pack(pady=8)
-
 
         ctk.CTkButton(
             frame, text="Cerrar",
@@ -1611,7 +1575,7 @@ class DocenteFunciones:
     def editarActividad(self, parent):
         ventana = ctk.CTkToplevel(parent)
         ventana.title("✏️ Editar Actividad")
-        ventana.geometry("650x750")
+        ventana.geometry("750x750")
         ventana.configure(fg_color="#f2f6fc")
 
         frame_principal = ctk.CTkFrame(ventana, fg_color="#dceeff", corner_radius=20)
@@ -3094,11 +3058,6 @@ class LoginApp(ctk.CTk):
 
         # Título (siempre se muestra)
         ctk.CTkLabel(self, text="Gestión Cocurricular Key", font=("Arial", 24, "bold")).pack(pady=(0, 15))
-
-
-        # Título fijo debajo (siempre aparece)
-        ctk.CTkLabel(self, text="Gestión Cocurricular Key", font=("Arial", 24, "bold")).pack(pady=10)
-
 
         self.usuario_entry = ctk.CTkEntry(self, placeholder_text="Usuario", width=300)
         self.usuario_entry.pack(pady=10)

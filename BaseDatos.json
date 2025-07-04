@@ -8,8 +8,12 @@
       "idEstudiante": "000005",
       "correo": "joceline.ayala@keyinstitute.edu.sv",
       "carrera": "Ingeniería en Ciencias de la Computacion",
-      "notificaciones": false,
-      "actividadesInscritas": [],
+      "notificaciones": true,
+      "actividadesInscritas": [
+        {
+          "idActividad": "refuerzo_para_competencia_01_2025"
+        }
+      ],
       "actividadesCompletadas": [
         "baile_01_2025"
       ]
@@ -38,14 +42,27 @@
     },
     {
       "tipoUsuario": "Docente",
-      "usuario": "Alberto",
+      "usuario": "Erick",
       "contrasena": "Profe123",
-      "idMaestro": "00005",
-      "correo": "joceline.ayala@keyinstitute.edu.sv",
-      "rol": "encargado"
+      "correo": "erick.varela@keyinstitute.edu.sv",
+      "asignaciones": []
     }
   ],
   "actividades": [
+    {
+      "nombreActividad": "Refuerzo para Competencia",
+      "idActividad": "refuerzo_para_competencia_01_2025",
+      "categoria": "Opcional",
+      "personaEncargada": "Erick",
+      "detalles": "Refuerzo para Competencia",
+      "horario": [],
+      "lugar": "Clic Lab",
+      "cuposMaximos": 25,
+      "estado": "activa",
+      "inscritos": [
+        "Jo24"
+      ]
+    },
     {
       "nombreActividad": "Baile",
       "idActividad": "baile_01_2025",
@@ -70,26 +87,6 @@
       "inscritos": [
         "j",
         "j"
-      ]
-    },
-    {
-      "nombreActividad": "Yoga",
-      "idActividad": "yoga_02_2025",
-      "categoria": "Opcional",
-      "personaEncargada": "Alberto",
-      "detalles": "Clases de yoga para relajarse",
-      "horario": [
-        {
-          "dia": "Viernes",
-          "inicio": "03:00",
-          "fin": "04:00"
-        }
-      ],
-      "lugar": "Salón 101",
-      "cuposMaximos": 20,
-      "estado": "activa",
-      "inscritos": [
-        "Jo24"
       ]
     }
   ],
@@ -150,6 +147,13 @@
       "remitente": "a",
       "publicado": "a",
       "fecha": "2025-07-04 05:34:32"
+    },
+    {
+      "titulo": "Hoy clase en kite",
+      "descripcion": "El día sfasj",
+      "remitente": "Erick",
+      "publicado": "Erick",
+      "fecha": "2025-07-04 13:18:07"
     }
   ],
   "actividadesFinalizadas": []

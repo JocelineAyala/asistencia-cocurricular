@@ -1,0 +1,63 @@
+===== BASE DE DATOS - SISTEMA DE ASISTENCIA COCURRICULAR =====
+
+>>> ESTUDIANTES:
+- Usuario: Jo24
+  Nombre: 
+  Correo: joceline.ayala@keyinstitute.edu.sv
+  Intereses: 
+  Advertencias: 0
+  Actividades inscritas:
+--------------------------------------------------
+- Usuario: Sofía
+  Nombre: 
+  Correo: sofia.hernandez@keyinstitute.edu.sv
+  Intereses: 
+  Advertencias: 0
+  Actividades inscritas:
+--------------------------------------------------
+
+>>> DOCENTES:
+- Usuario: a
+  Nombre: 
+  Correo: joceline.ayala@keyinstitute.edu.sv
+--------------------------------------------------
+- Usuario: Alberto
+  Nombre: 
+  Correo: joceline.ayala@keyinstitute.edu.sv
+--------------------------------------------------
+
+>>> ADMINISTRADOR:
+- Usuario: Rebe
+  Nombre: 
+  Correo: rebeca.castro@keyinstitute.edu.sv
+--------------------------------------------------
+
+>>> ACTIVIDADES:
+- Nombre: Baile
+  ID: baile_01_2025
+  Categoría: Opcional
+  Encargado: Juan
+  Detalles: Clases de baile moderno
+  Lugar: Salón de Danza
+  Cupos: 20
+  Estado: activa
+  Horario:
+    - Martes: 14:00 a 16:00
+    - Jueves: 14:00 a 16:00
+  Inscritos:
+    - j
+    - j
+--------------------------------------------------
+- Nombre: Yoga
+  ID: yoga_02_2025
+  Categoría: Opcional
+  Encargado: Alberto
+  Detalles: Clases de yoga para relajarse
+  Lugar: Salón 101
+  Cupos: 20
+  Estado: activa
+  Horario:
+    - Viernes: 03:00 a 04:00
+  Inscritos:
+    - Jo24
+--------------------------------------------------

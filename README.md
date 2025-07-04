@@ -27,7 +27,7 @@ pip install customtkinter qrcode opencv-python
 
 2. Archivos principales del proyecto
 
-- iniciosesionv2.py: archivo principal para ejecutar el sistema.
+- iniciosesionv2.py: archivo principal para ejecutar el sistema. En el donde se menciona "Inserte contraseña aquí", ingrese: nwiu xriq katr alyz.
 - BaseDatos.json: contiene la base de datos de usuarios registrados.
 - AsistenciaDatos.json: guarda los registros de asistencia por actividad.
 - AdminData.json: gestiona las credenciales y datos del administrador.
@@ -41,15 +41,10 @@ python iniciosesionv2.py
 Esto abrirá una interfaz gráfica amigable donde se podrá:
 
 - Iniciar sesión como estudiante, docente o administrador
-
 - Escanear códigos QR para registrar asistencia
-
 - Inscribirse o gestionar actividades
-
 - Visualizar y exportar reportes semanales
-
 - Publicar noticias o cancelar sesiones
-
 - Visualizar historial y advertencias
 
 
